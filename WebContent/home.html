@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+	background-color: #f2f2f2;
+	padding: 25px;
+}
+.customDiv {
+	margin: 5px;
+	text-align: center;
+	background-color: silver;
+	min-height: 250px;
+}
+
+.name {
+	text-align: center;
+}
+
+
+.button {
+	background-color: rgb(90, 90, 90);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	cursor: pointer;
+}
+
+.button {
+	border-radius: 8px;
+}
+
+</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target="#myNavbar">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">BookMyGame</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+
+					<li><a href="#">Sports</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-earphone"></span>Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+							Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="slider">
+		<div class="container">
+			<br>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="Images/slide1.jpg" class="img-responsive" lt="Chania"
+							width="1600" height="150">
+					</div>
+
+					<div class="item">
+						<img src="Images/slide2.jpg" class="img-responsive" alt="Chania"
+							width="1600" height="150">
+					</div>
+
+					<div class="item">
+						<img src="Images/slide3.jpg" class="img-responsive" alt="chania"
+							width="1600" height="150">
+					</div>
+
+					<div class="item">
+						<img src="Images/slide4.jpg" class="img-responsive" alt="chania"
+							width="1600" height="150">
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button"
+					data-slide="prev"> <span
+					class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a> <a class="right carousel-control" href="#myCarousel" role="button"
+					data-slide="next"> <span
+					class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!--  <div class="container-fluid bg-3 text-center">
+		<h3>Sports</h3>
+		<br>
+		<div class="row">
+			<div class="col-sm-3">
+				<p>Some text..</p>
+				<img src="Image/slide1.jpg" class="img-responsive"
+					style="width: 100%" alt="Image">
+			</div>
+			<div class="col-sm-3">
+				<p>Some text..</p>
+				<img src="Images/slide2.jpg" class="img-responsive"
+					style="width: 100%" alt="Image">
+			</div>
+			<div class="col-sm-3">
+				<p>Some text..</p>
+				<img src="Image/slide3.jpg" class="img-responsive"
+					style="width: 100%" alt="Image">
+			</div>
+			<div class="col-sm-3">
+				<p>Some text..</p>
+				<img src="Image/slide4.jpg" class="img-responsive"
+					style="width: 100%" alt="Image">
+			</div>
+		</div>
+	</div>-->
+	<br>
+	<br>
+    <div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="name">
+					<b>Cricket</b>
+				</div>
+				<div class="customDiv"></div>
+	
+			</div>
+			<div class="col-md-4">
+				<div class="name">
+					<b>Badminton</b>
+				</div>
+				<div class="customDiv"></div>
+			</div>
+			<div class="col-md-4">
+				<div class="name">
+					<b>Football</b>
+				</div>
+				<div class="customDiv"></div>
+				
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">
+				<div class="name">
+					<b>Duleep Trophie</b>
+				</div>
+				<div class="customDiv"></div>
+			
+			</div>
+			<div class="col-md-4">
+				<div class="name">
+					<b>Badminton premier League</b>
+				</div>
+				<div class="customDiv"></div>
+
+			</div>
+
+		</div>
+	</div>
+	<br>
+	<br>
+	<footer class="container-fluid text-center">
+		<p>@ Company 2017</p>
+		<div class="col-md-4">
+			<label><p href="contactus.html">contact us</p></label>
+		</div>
+		<div class="col-md-4">
+			<label><phref="letushelpyou">let us help you
+				</p></label>
+		</div>
+		<div class="col-md-4">
+			<label><p href="aboutus.html">About us</label>
+		</div>
+	</footer>
+
+</body>
+</html>
